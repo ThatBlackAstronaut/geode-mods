@@ -21,25 +21,3 @@ add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
 CPMAddPackage("gh:camila314/uibuilder#3d10e3d")
 add_subdirectory(nodes)
 
-if (WIN32)
-# 	# add_subdirectory(fast-format)
-	add_subdirectory(draw-divide)
-# 	add_subdirectory(jump-key)
-
-	add_subdirectory(max-window)
-	add_subdirectory(ingame-screenshot)
-endif()
-
-add_subdirectory(run-info)
-
-# TODO: macos still sucks
-if (NOT APPLE)
-
-add_subdirectory(scroll-zoom)
-
-# add_subdirectory(physics-btns)
-add_subdirectory(circle-tool)
-# add_subdirectory(song-search)
-add_subdirectory(song-preview)
-
-endif()
