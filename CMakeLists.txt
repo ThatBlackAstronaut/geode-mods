@@ -39,7 +39,6 @@ add_subdirectory(scroll-zoom)
 
 # add_subdirectory(physics-btns)
 add_subdirectory(circle-tool)
-add_subdirectory(reference-image)
 # add_subdirectory(song-search)
 add_subdirectory(song-preview)
 
